@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+:root {
+  --p1DPink: #FC7CA4;
+  --p2LPink: #F4AFC4;
+  --p3Maroon: #861B3C;
+  --p4DMaroon: #571428;
+  --background: #ffffff; /* default light mode background */
+  --foreground: #171717; /* default light mode text */
+}
+
+select option:hover {
+  background-color: var(--p2LPink) !important;
+}
+
+/* 698113185679-jhpnmq236m48bkhf8ajed41vpg3vc75r.apps.googleusercontent.com */
+
+/* @keyframes  {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
