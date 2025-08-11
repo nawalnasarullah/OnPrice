@@ -14,7 +14,7 @@ async def startup_event():
 # Equivalent to app.use(cors());
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change in production
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
